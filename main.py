@@ -51,7 +51,7 @@ def disparar_mensagem(nome, telefone):
         print(f"Erro de conexão com a Z-API ao tentar enviar para {nome}: {erro}")
 
 if __name__ == "__main__":
-    print("--- Iniciando Script de Envio ---")
+    print("Iniciando Script de Envio")
     
     lista_contatos = pegar_contatos()
     
@@ -70,4 +70,4 @@ if __name__ == "__main__":
             else:
                 print("Aviso: Encontrou um registro com nome ou telefone faltando.")
                 
-    print("--- Script Finalizado ---")
+    print("Script Finalizado")
