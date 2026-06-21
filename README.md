@@ -19,11 +19,13 @@ ZAPI_TOKEN=seu_token_zapi
 3. Instalação das Dependências
 Instale os pacotes necessários utilizando o pip:
 
-```
+Plaintext
 pip install supabase python-dotenv requests
-4. Execução
-Para rodar o script, execute:
 
 ```
+4. Execução
+Para rodar o script, execute:
+```text
+
 python main.py
 ```
